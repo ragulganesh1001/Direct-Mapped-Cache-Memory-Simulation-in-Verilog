@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+T=0 | Addr=0x0 | WData=0x0 | RData=0x0 | Hit=0 | Read=0 | Write=0
+T=20000 | Addr=0x10 | WData=0xa5 | RData=0x0 | Hit=0 | Read=0 | Write=1
+T=30000 | Addr=0x10 | WData=0xa5 | RData=0x0 | Hit=0 | Read=0 | Write=0
+T=40000 | Addr=0x10 | WData=0xa5 | RData=0x0 | Hit=0 | Read=1 | Write=0
+T=45000 | Addr=0x10 | WData=0xa5 | RData=0xa5 | Hit=1 | Read=1 | Write=0
+T=50000 | Addr=0x10 | WData=0xa5 | RData=0xa5 | Hit=1 | Read=0 | Write=0
+T=55000 | Addr=0x10 | WData=0xa5 | RData=0x0 | Hit=0 | Read=0 | Write=0
+T=60000 | Addr=0x50 | WData=0xa5 | RData=0x0 | Hit=0 | Read=1 | Write=0
+T=65000 | Addr=0x50 | WData=0xa5 | RData=0x50 | Hit=0 | Read=1 | Write=0
+T=70000 | Addr=0x50 | WData=0xa5 | RData=0x50 | Hit=0 | Read=0 | Write=0
+T=75000 | Addr=0x50 | WData=0xa5 | RData=0x0 | Hit=0 | Read=0 | Write=0
+$finish called at time : 90 ns : File "D:/vivado files/cache_with_memory/cache_with_memory.srcs/sim_1/new/tb_direct_mapped_cache.v" Line 55
